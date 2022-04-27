@@ -14,7 +14,7 @@ Rating <- my_html %>% html_nodes(".aok-align-bottom") %>% html_text()
 
 Raw_iphone_det_amz <- data.frame(Name,Rating,Times_Rated,Price)
 
-View(iphone_det_amz)
+View(Raw_iphone_det_amz)
 
 write.csv(Raw_iphone_det_amz,"Raw_iphone_det_amz.csv")
 
