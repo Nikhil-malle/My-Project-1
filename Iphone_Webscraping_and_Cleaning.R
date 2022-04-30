@@ -85,7 +85,7 @@ View(Cleaned_iphonesdata)
 
 Cleaned_iphonesdata$Int_Storage_GB <- as.integer(Cleaned_iphonesdata$Int_Storage_GB)
 Cleaned_iphonesdata$Name <- as.character(Cleaned_iphonesdata$Name)
-Cleaned_iphonesdata$Color <- as.character(Cleaned_iphonesdata$Color)
+Cleaned_iphonesdata$Color <- as.factor(Cleaned_iphonesdata$Color)
 Cleaned_iphonesdata$Rating <- as.numeric(Cleaned_iphonesdata$Rating)
 Cleaned_iphonesdata$Num_People_Rated <- as.integer(Cleaned_iphonesdata$Num_People_Rated)
 Cleaned_iphonesdata$Price <- as.numeric(Cleaned_iphonesdata$Price)
